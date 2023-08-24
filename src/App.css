@@ -26,3 +26,30 @@
     display: block;
     width: 100%;
 }
+
+.mensagem {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background: #31976b;
+    color: #fff;
+}
+
+.fecharMensagem {
+    float: right;
+    cursor: pointer;
+}
+
+.editar,
+.excluir {
+    background: #a7a7a7;
+    border-radius: 5px;
+    border: 0;
+    padding: 5px;
+
+}
+
+.excluir {
+    margin-left: 5px;
+    background: rgb(229, 82, 82);
+}
